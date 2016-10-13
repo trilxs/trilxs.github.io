@@ -1,0 +1,36 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    display: block;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+section.tabs-list {
+    color: black;
+    display: block;
+    font-size: 20px;
+}
+
+li {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    display: block;
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+li:hover {
+    background: #8da1bf;
+}
