@@ -1,36 +1,49 @@
 * {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
     text-decoration: none;
     padding: 0;
     margin: 0;
 }
 
 h1 {
+    background:url(bg.jpg) top right no-repeat; background-attachment:fixed;
     display: block;
+    letter-spacing: -8px;
     font-size: 40px;
     font-weight: bolder;
     height: 80px;
-    text-align: center;
+    font-size: 90px;
     padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: -15px;
 }
 section.tabs-list {
-    color: black;
     display: block;
     font-size: 20px;
 }
 
 li {
+    opacity: .7;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    
     transition:.5s;
     display: block;
-    height: 50px;
+    height: 60px;
     padding-top: 25px;
-    padding-left: 10px;
+    padding-left: 550px;
+}
+li a { 
+    color: #2b3646;
 }
 
 li:hover {
-    background: #8da1bf;
+    opacity: 1;
+    background:url(bg.jpg) top right no-repeat; background-attachment:fixed;
 }
