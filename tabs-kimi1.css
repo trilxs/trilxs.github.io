@@ -1,0 +1,81 @@
+* {
+    font-family: 'Droid Sans', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    background:url(bg.jpg) top right no-repeat; background-attachment:fixed;
+    display: block;
+    letter-spacing: -8px;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 80px;
+    font-size: 90px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: -15px;
+}
+
+h2 {
+    display: block;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+p {
+    display: block;
+    width: 500px;
+    padding-left:30px;
+    line-height: 30px
+}
+
+.one {
+   display: inline-block; 
+}
+
+.two {
+    display: block;
+}
+section.links {
+    display: block;
+    font-size: 20px;
+}
+
+.links {
+    transition:.5s;
+    padding-left: 30px;
+    padding-top: 10px;
+    display: block;
+    height: 60px;
+}
+.links a{
+    opacity: .7;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    transition:.5s;
+    display: inline-block;
+    height: 50px;
+    width: 277px;
+    text-align: center;
+    line-height:50px;
+    color: #2b3646;
+}
+
+.links a:hover {
+    opacity: 1;
+    background: #b4cae3;
+}
+
+.video {
+    padding-left: 30px;
+}
