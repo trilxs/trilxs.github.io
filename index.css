@@ -34,7 +34,6 @@ nav {
     padding-top: 120px;
     padding-left: 80px;
     padding-right: 110px;
-    opacity: .7;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -48,12 +47,13 @@ nav {
 
 .navbar-item: hover {
     opacity: 1;
-    transition: .5s;
     background: #b4cae3;
 }
 
 main {
+    font-size: 20px;
     margin-top: 50px;
+    margin-left: 20px;
 }
 
 

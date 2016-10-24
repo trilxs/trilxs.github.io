@@ -16,17 +16,21 @@ h1 {
     padding-top: 30px;
     padding-bottom: 10px;
     margin-left: -15px;
+}
+
+h1 a {
     text-decoration: none;
     color: black;
 }
-
 section.tabs-list {
+    padding-left:0px;
+    width: 100%;
     display: block;
     font-size: 20px;
 }
 
 li {
-    opacity: .7;
+    background: white;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -35,12 +39,12 @@ li {
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
-    
+    opacity: 1;
     transition:.5s;
     display: block;
     height: 60px;
     padding-top: 25px;
-    padding-left: 550px;
+    padding-left: 50px;
 }
 li a { 
     color: #2b3646;
@@ -49,4 +53,5 @@ li a {
 li:hover {
     opacity: 1;
     background:url(bg.jpg) top right no-repeat; background-attachment:fixed;
+    
 }
